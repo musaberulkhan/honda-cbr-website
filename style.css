@@ -16,6 +16,19 @@ body{
     background-color: #8a3823;
 }
 
+
+.orange-border-button{
+    background-color: #FFFFFF;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+
+.orange-border-button:hover{
+    background-color: #E76F51;
+    border: 1px solid #E76F51;  
+    color: #FFFFFF;
+}
+
 h1{
     font-size: 48px;
 }
@@ -55,7 +68,8 @@ header{
     font-weight: 600;    
 }
 
-.banner-text small,p{
+.banner-text small,
+.banner-text p{
     font-weight: 300;
     color: #E0E0E0;
 }
@@ -91,14 +105,34 @@ header{
     border-top: 1px solid #E76F51;
 }
 
-.featured-bikes .row{
-    /* margin-top: 70px; */
-}
-
 .grayscale-image{
     filter: grayscale(100%);
 }
 
-.featured-bikes .row div{
-    /* padding: 55px; */
+
+/* ------------------------             Latest News           ------------------------------------ */
+.latest-news{
+    margin-top: 120px;
+}
+
+.latest-news .row div h3{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.latest-news .row div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+.latest-news .row div button{
+    padding: 15px 35px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 18px;
 }
