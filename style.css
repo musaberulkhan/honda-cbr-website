@@ -136,3 +136,47 @@ header{
     font-weight: 500;
     font-size: 18px;
 }
+
+
+
+
+/* ------------------------                Client Review            ------------------------------------ */
+.client-review{
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+.client-review h1{
+    margin-bottom: 50px;
+}
+
+.client-review h1 span{
+    color: #E76F51;   
+}
+
+
+.client-review .card{
+    border-radius: 5px;    
+}
+
+.client-review .card .card-body p{
+    text-align: center;
+    color: #6C6C6C;
+}
+
+.client-review .card .card-footer .rating{
+    color:#E77C40;
+}
+
+.client-review .card .card-footer p{
+    font-size: 14px;   
+    font-weight: 600;
+}
+
+.client-review .card .card-footer .name{
+    color: #23A6F0;
+}
+
+.client-review .card .card-footer .job{
+    color:#252B42;
+}
