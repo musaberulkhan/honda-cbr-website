@@ -16,9 +16,12 @@ body{
     background-color: #8a3823;
 }
 
+h1{
+    font-size: 48px;
+}
 
-.login-button{
-
+.section-title{
+    font-weight: 600;
 }
 
 /*****************************************************************************************************    
@@ -49,11 +52,12 @@ header{
 }
 
 .banner-text h1{
-    font-weight: 600;
+    font-weight: 600;    
 }
 
 .banner-text small,p{
     font-weight: 300;
+    color: #E0E0E0;
 }
 
 .banner-text small{
@@ -63,4 +67,38 @@ header{
 .banner-text p{
     font-size: 16px;
     text-align: justify;
+}
+
+
+/* ------------------------             Featured Bikes           ------------------------------------ */
+.featured-bikes{
+    margin-top: 64px;
+}
+
+.featured-bikes small{
+    color: #E76F51;
+    font-weight: 600;
+}
+
+.featured-bikes small::after{
+    margin-right: auto;
+    margin-left: auto;    
+    margin-top: 5px;   
+    content:"";    
+    display: block;
+    height: 0.5em;    
+    width: 60px;        
+    border-top: 1px solid #E76F51;
+}
+
+.featured-bikes .row{
+    /* margin-top: 70px; */
+}
+
+.grayscale-image{
+    filter: grayscale(100%);
+}
+
+.featured-bikes .row div{
+    /* padding: 55px; */
 }
