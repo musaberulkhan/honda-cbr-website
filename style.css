@@ -1,3 +1,66 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange-button{
+    background-color: #E76F51;
+    border: none;
+}
+
+.orange-button:hover{
+    background-color: #c95f44;
+}
+
+.orange-button:focus{
+    background-color: #8a3823;
+}
+
+
+.login-button{
+
+}
+
+/*****************************************************************************************************    
+                                        Header Section
+*****************************************************************************************************/
+header{
+    background-color: #264653;
+}
+
+/* ------------------------             Navigation Bar          ------------------------------------ */
+.navbar-brand{
+    width: 220px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #FFFFFF;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #E76F51;
+}
+
+.banner-text{
+    color: #FFFFFF;
+}
+
+.banner-text h1{
+    font-weight: 600;
+}
+
+.banner-text small,p{
+    font-weight: 300;
+}
+
+.banner-text small{
+    font-size: 14px;
+}
+
+.banner-text p{
+    font-size: 16px;
+    text-align: justify;
 }
