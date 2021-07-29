@@ -235,8 +235,55 @@ header{
 }
 
 
+/* ------------------------              Gallery         ------------------------------------ */
+.gallery{
+    margin-top: 100px;
+}
 
+.gallery .section-title span{
+    color: #E76F51;
+}
 
+.gallery .row .gallery-item{    
+    position: relative;
+    padding: 15px;    
+}
+
+.gallery .row .gallery-item .gallery-card{
+    position: relative;
+}
+
+.gallery .row .gallery-item .image-details{    
+    position:absolute;
+    opacity: 0;   
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;       
+    height: 80%;
+    width: 100%;    
+    text-align: center;
+    color: white;             
+    background-color: rgba(0, 0, 0, 0.5);    
+    transition: all 0.5s ease; 
+}
+
+.gallery .row .gallery-item img{
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.gallery .row .gallery-item:hover .image-details{
+    transform: scale(1.05);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.gallery .row .gallery-item:hover img{
+    transform: scale(1.05);
+    filter: grayscale(60%);
+}
 
 /*****************************************************************************************************    
                                         Footer Section
@@ -256,7 +303,6 @@ footer .links a{
     margin-right: 24px;
     transition: all 0.2s ease;
 }
-
 
 footer .links a:hover{
     color: #E76F51;
