@@ -37,6 +37,10 @@ h1{
     font-weight: 600;
 }
 
+.section-title span{
+     color: #E76F51;
+}
+
 /*****************************************************************************************************    
                                         Header Section
 *****************************************************************************************************/
@@ -207,10 +211,6 @@ header{
     margin-bottom: 60px;
 }
 
-.faqs .section-title span{
-    color: #E76F51;
-}
-
 .accordion-item{
     border: 1px solid #D5E5FB!important;
     margin-bottom: 12px;
@@ -240,10 +240,6 @@ header{
     margin-top: 100px;
 }
 
-.gallery .section-title span{
-    color: #E76F51;
-}
-
 .gallery .row .gallery-item{    
     position: relative;
     padding: 8px;    
@@ -264,7 +260,10 @@ header{
     height: 80%;
     width: 100%;    
     text-align: center;
-    color: white;             
+    color: white;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;         
     background-color: rgba(0, 0, 0, 0.5);    
     transition: all 0.5s ease; 
 }
@@ -272,6 +271,9 @@ header{
 .gallery .row .gallery-item img{
     border-radius: 5px;
     transition: all 0.4s ease;
+}
+.gallery .row .gallery-item .image-details p{
+    margin-bottom: 0;
 }
 
 .gallery .row .gallery-item:hover .image-details{
@@ -291,10 +293,6 @@ header{
 /* ------------------------              Contact Us         ------------------------------------ */
 .contact-us{
     margin-top: 120px;
-}
-
-.contact-us .section-title span{
-    color: #E76F51;
 }
 
 .contact-us h3{
@@ -324,7 +322,7 @@ header{
 footer{
     background-color: #0B0D17;
     padding-top: 56px;
-    padding-bottom: 96px;
+    padding-bottom: 5px;
     margin-top: 100px;
 }
 
@@ -356,4 +354,38 @@ footer .copyright p{
 
 .download-app-link{
     width: 150px;
+}
+
+
+
+
+
+
+
+/*****************************************************************************************************    
+                                       Responsive Query
+*****************************************************************************************************/
+/* **********     For Table and Small Device    ***********/
+@media only screen and (min-width:576px) and (max-width:767px){
+    h1{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    h1{
+        font-size: 36px;        
+    }
+    .navbar-brand{
+        width: 160px;
+    }
+    .client-review{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }    
+    .contact-us h3{
+        font-size: 24px;
+
+    }
+    
 }
