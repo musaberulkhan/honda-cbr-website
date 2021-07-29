@@ -205,6 +205,7 @@ header{
 /* ------------------------              Frequently Asked Questions         ------------------------------------ */
 .faqs{
     margin-top: 100px;
+    font-family: 'Inter', sans-serif;
 }
 
 .faqs .section-title{
@@ -215,7 +216,7 @@ header{
     border: 1px solid #D5E5FB!important;
     margin-bottom: 12px;
     border-radius: 5px;
-    font-family: 'Inter', sans-serif;
+    
 }
 
 .accordion-item .accordion-header button{
@@ -324,6 +325,7 @@ footer{
     padding-top: 56px;
     padding-bottom: 5px;
     margin-top: 100px;
+    font-family: 'Manrope', sans-serif;
 }
 
 footer .links a{
