@@ -246,7 +246,7 @@ header{
 
 .gallery .row .gallery-item{    
     position: relative;
-    padding: 15px;    
+    padding: 8px;    
 }
 
 .gallery .row .gallery-item .gallery-card{
@@ -284,6 +284,39 @@ header{
     transform: scale(1.05);
     filter: grayscale(60%);
 }
+
+
+
+
+/* ------------------------              Contact Us         ------------------------------------ */
+.contact-us{
+    margin-top: 120px;
+}
+
+.contact-us .section-title span{
+    color: #E76F51;
+}
+
+.contact-us h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact-us .address p{
+    color: #383838;
+    font-weight: 500;
+}
+
+.contact-us .address p i{
+    font-size: 18px;
+    width: 20px;
+    margin-right: 10px;
+    color: #E76F51;
+}
+
+
+
+
 
 /*****************************************************************************************************    
                                         Footer Section
