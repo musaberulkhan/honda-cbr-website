@@ -60,6 +60,11 @@ header{
     color: #E76F51;
 }
 
+.navbar-toggler span i{
+    color: #FFFFFF;  
+    font-size: 24px; 
+}
+
 .banner-text{
     color: #FFFFFF;
 }
@@ -179,4 +184,44 @@ header{
 
 .client-review .card .card-footer .job{
     color:#252B42;
+}
+
+
+
+
+
+
+/* ------------------------              Frequently Asked Questions         ------------------------------------ */
+.faqs{
+    margin-top: 100px;
+}
+
+.faqs .section-title{
+    margin-bottom: 60px;
+}
+
+.faqs .section-title span{
+    color: #E76F51;
+}
+
+.accordion-item{
+    border: 1px solid #D5E5FB!important;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+.accordion-item .accordion-header button{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #383838;
+}
+
+
+.accordion-item .accordion-body p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #7E848C;
+    text-align: justify;    
 }
